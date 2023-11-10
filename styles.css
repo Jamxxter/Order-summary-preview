@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+.main-container{
+    background-color: white;
+    max-width: 450px;
+    height: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 100%;
+    border-radius: 30px;
+
+}
+img{
+    max-width: 100%;
+    width: 700px;
+    border-radius: 30px 30px 0px 0px;
+    height: 250px;
+    object-fit: cover;
+}
+div .content{
+    text-align: center;
+}
+.plan-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 48px 32px;
+    padding: 30px;
+}
+.plan-box-left{
+    display: flex;
+    gap: 15px;
+}
+.price{
+    color: #7280a7;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.plan-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2em;
+    text-align: left;
+    font-size: 16px;
+    font-family: red hat display;
+}
+.content .music-icon{
+    width: 50px;
+    height: 50px;
+}
+.order{
+    font-family: red hat display;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 700px;
+    font-size: 32px;
+    columns: #1f2f56;
+}
+.qoute{
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    font-family:red hat display;
+    color: #7280a7;
+    line-height: 30px;
+}
+.change{
+    font-family: red hat display;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #3829e0;
+}
+.btn .payment{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payment{
+    padding: 20px;
+    background-color: #3829e0;
+    color: white;
+    border-radius: 15px;
+    width: 85%;
+    border-color: transparent;
+    font-family: red hat display;
+    font-size: 18px;
+    font-weight: bold;
+}
+.payment:hover{
+    background-color: rgb(85, 125, 235);
+    cursor: pointer;
+}
+.cancel-order{
+    background-color: transparent;
+    border: transparent;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #7280a7;
+}
+.cancel-order:hover{
+    color: #3f465a;
+    cursor: pointer;
+}
+.change:hover{
+    color: #7168d4 ;
+    cursor: pointer;
+}
+.footer-creator{
+    font-family: red hat display;
+    text-align: center;
+
+}
+#challenged{
+    color: black;
+    text-decoration: none;
+}
+#challenged:hover{
+    color: grey;
+    text-decoration: underline;
+}
+#creator{
+    color: black;
+    text-decoration: none;
+}
+#creator:hover{
+    color: grey;
+    text-decoration: underline;
+}
